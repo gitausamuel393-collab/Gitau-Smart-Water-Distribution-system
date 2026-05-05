@@ -1,5 +1,9 @@
 # Meru Smart Water Distribution System v2.0
 
+##Description
+
+This is a web-based water management system developed using PHP and MySQL. It allows users to monitor water usage, manage payments, and track consumption.
+
 ## Setup
 
 1. Import `meru_schema.sql` into MySQL via phpMyAdmin
