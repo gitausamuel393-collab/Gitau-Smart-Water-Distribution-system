@@ -1,8 +1,36 @@
 # Meru Smart Water Distribution System v2.0
 
-##Description
+## Project Overview
+The Meru Smart Water Distribution System is designed to improve water usage monitoring and billing through IoT-enabled valves 
+and a web-based dashboard. It integrates real-time usage tracking, mobile payments (M-Pesa), and administrative controls.
 
-This is a web-based water management system developed using PHP and MySQL. It allows users to monitor water usage, manage payments, and track consumption.
+## Features
+User registration and authentication
+Real-time water usage tracking (IoT integration)
+Valve control system (open/close remotely)
+Wallet system with M-Pesa integration
+Usage and payment history tracking
+Admin dashboard for system management
+Data export (PDF and CSV reports)
+Alerts and notifications system
+## Technologies Used
+PHP (Backend)
+MySQL (Database)
+HTML, CSS, JavaScript (Frontend)
+XAMPP (Local server)
+Composer (Dependency management)
+M-Pesa API (Payments)
+Arduino/LoRa (IoT communication)
+## Configuration
+
+Before running the system:
+Update database credentials in db.php
+Configure M-Pesa credentials in mpesa_config.php
+Ensure Apache and MySQL are running in XAMPP
+
+## Description
+This is a web-based water management system developed using PHP and MySQL. It allows users to monitor water usage, manage 
+payments, and track consumption.
 
 ## Setup
 
@@ -10,6 +38,14 @@ This is a web-based water management system developed using PHP and MySQL. It al
 2. Copy all files to `C:\xampp\htdocs\meru\`
 3. Run `composer install` in the root folder
 4. Visit `http://localhost/meru/`
+
+## Usage
+1. Register a new user account
+2. Log in to the system
+3. Add a water valve device
+4. Monitor usage from the dashboard
+5. Top up wallet using M-Pesa
+6. Generate reports or export data
 
 ## File Structure
 ```
